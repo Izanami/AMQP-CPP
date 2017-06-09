@@ -1,0 +1,18 @@
+Source: libamqpcpp
+Priority: optional
+Maintainer: Adrien Jeser <adrien.jeser@geotoolkit.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Section: libs
+Homepage: https://github.com/CopernicaMarketingSoftware/AMQP-CPP
+#Vcs-Git: https://anonscm.debian.org/collab-maint/amqpcpp.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/amqpcpp.git
+
+Package: libamqpcpp-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}
+Description: AmqpCpp library
+ AMQP-CPP is a C++ library for communicating with a RabbitMQ message broker.
+ The library can be used to parse incoming data from a RabbitMQ server,
+ and to generate frames that can be sent to a RabbitMQ server.
